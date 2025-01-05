@@ -1,0 +1,20 @@
+body{
+    background: rgba(158, 158, 158, 0.836);
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+#search{
+    padding-top: 3vh;
+    padding-left: 4vw;
+}
+#container{
+    border: solid 1px;  /* 레이아웃 다 잡고 지우기*/
+    height: 50vh;
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
+#product-card{
+    border: solid 1px white;
+}
