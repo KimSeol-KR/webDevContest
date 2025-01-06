@@ -34,23 +34,28 @@
 
             <div id="container">
                 <div id="product-card">
-                    <img src="" alt="상품이미지">
+                    <img src="img/pr1.JPG" alt="상품이미지">
                     <div id="product-Info">
-                        <h5>상품명</h5>
-                        <p>제조사</p>
-                        <h6>10000</h6>
+                        <h5 id="name">식기세척기</h5>
+                        <p id="company">삼성</p>
+                        <h6><span id="price">10000</span>원</h6>
                     </div>
-                    <button id="add-Cart"></button>
+                    <button id="add-Cart" class="btn btn-danger">담기</button>
                 </div>
+                
             </div>
             <div id="wish-List">
-                <div id="drag-Zone"></div>
+                <!-- class="hidden" 추가시 요소 숨기기 -->
+                <div id="drag-Zone" >
+                    <p id="info">여기로 드래그 하세요!</p>
+                </div>
             </div>
         </main>
     
     
     
-    
+    <script src="JS/card.js"></script>
+    <script src="JS/dragAndDrop.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
