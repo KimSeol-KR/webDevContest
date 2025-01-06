@@ -1,0 +1,66 @@
+body{
+    background: rgba(189, 189, 189, 0.836);
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+#search{
+    padding-top: 3vh;
+    padding-left: 4vw;
+}
+#container{
+    display: flex; /* 사실 이거 쓰면 간격조절 쉽게 할 수 있음..*/
+    border: solid 1px;  /* 레이아웃 다 잡고 지우기*/
+    height: 50%;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+#product-card{
+    background: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 20%;
+    height: 80%;
+    margin: 2%;
+}
+#product-card img{
+    width: 90%;
+    padding-left: 10%;
+
+}
+#product-Info{
+    padding: 10%;
+    
+}
+#product-Info > *{
+    margin: 0px;
+}
+#add-Cart{
+    margin: 2%;
+    margin-left: 7%;
+}
+#wish-List{
+    display: flex; 
+    justify-content: center;
+    border: solid 1px;  /* 레이아웃 다 잡고 지우기*/
+    border-radius: 10px;
+    background: black;
+    height: 30vh;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+#drag-Zone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.hidden{
+    visibility: hidden;
+}
