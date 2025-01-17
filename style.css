@@ -17,7 +17,7 @@ main{
     margin-left: 4vw;
     margin-right: 4vw;
 }
-#product-card{
+.product-card{
     background: white;
     border: solid 1px white;
     border-radius: 10px;
@@ -25,20 +25,20 @@ main{
     height: 80%;
     margin: 2%;
 }
-#product-card img{
+.product-card img{
     margin-top: 10%;
     width: 90%;
     padding-left: 10%;
 
 }
-#product-Info{
+.product-Info{
     padding: 10%;
     
 }
-#product-Info > *{
+.product-Info > *{
     margin: 0px;
 }
-#add-Cart{
+.add-Cart{
     margin: 2%;
     margin-left: 7%;
 }
@@ -52,6 +52,9 @@ main{
     margin-top: 3vh;
     margin-left: 4vw;
     margin-right: 4vw;
+}
+.wide{
+    height: 60vh !important;
 }
 #drag-Zone{
     display: flex;
